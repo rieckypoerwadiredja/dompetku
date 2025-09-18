@@ -1,8 +1,9 @@
 import streamlit as st
 from google_spreadsheet_connection import conn,sheet_transactions,sheet_targets
 
-st.title("💰 Personal Finance Tracker")
+st.title("💰 Dompetku ~ Finance Tracker")
 
+st.set_page_config(page_title="Dashboard Dompetku", layout="wide")
 # -----------------------------
 # Optional: Show existing data
 # -----------------------------
